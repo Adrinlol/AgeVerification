@@ -1,0 +1,135 @@
+/* Import custom fonts */
+@font-face { font-family: lato-black; src: url('./fonts/lato-black-webfont.ttf'); } 
+@font-face { font-family: lato-bold; src: url('./fonts/lato-bold-webfont.ttf'); } 
+@font-face { font-family: lato-lightitalic; src: url('./fonts/lato-lightitalic-webfont.ttf'); } 
+
+/* Fix formatting issues */
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+    height: 120vh;
+    width:100vw;
+}
+
+.flat {
+	font-size:20px;
+	font-family: lato-lightitalic;
+	margin-top:40px;
+}
+
+.bday {
+	font-size:18px;
+	margin-bottom:20px;
+	font-family: lato-black;
+	font-size: 24px;
+	color:#5AD0A0;
+	font-weight:bold;
+}
+
+.underline {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.banner {
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+}
+.flex-01 {
+	flex: 1;
+}
+.flex-column {
+	flex-direction: column;
+}
+
+.form {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.size-sm,
+.size-md,
+.size-lg,
+.size-xl,
+.size-xxl,
+.btn-action {
+	height: 65px;
+	margin: 8px;
+	padding:8px;
+}
+
+.size-sm {
+	width: 70px;
+}
+.size-md {
+	margin-top:30px;
+	width: 150px;
+	outline: none;
+}
+.size-lg {
+	width: 200px;
+}
+.size-xl {
+	width: 250px;
+}
+.size-xxl {
+	width: 300px;
+}
+
+.birthday-inputs {
+	display: flex;
+	justify-content: center;
+}
+
+.field {
+	position: relative;
+	text-align: center;
+	border: solid 2px rgb(200,200,200);
+	font-weight: bolder;
+	outline:none;
+	font-size:30px;
+	font-family: lato-bold;
+}
+
+.btn-action {
+	background-color:#5AD0A0;
+	position: relative;
+	border:none;
+	color:#fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.terms,
+.underline{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	font-family:lato-lightitalic;
+	display: block;
+}
+
+.red {
+	font-size: 22px;
+	color:red;
+	margin: 20px;
+	font-family: lato-bold;
+	font-weight: 100;
+}
