@@ -1,4 +1,4 @@
-// Select the form with the id of ageForm
+// Select the form with the id of ageForm 
 $("#ageForm").submit(() => {
     // Stire the input for each period of time in a variable
     let day = $("#birthDay").val();
