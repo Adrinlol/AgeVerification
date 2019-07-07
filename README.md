@@ -18,4 +18,4 @@ When the user opens the page there will be age validation. The user must be at l
 - The input for month is > 12 
 - For some weird reason the user is over 119 years old
 
-![111111](https://user-images.githubusercontent.com/48876996/60768244-d2ff4880-a0d3-11e9-8525-8cd03dd2c071.png)
+![111111](https://user-images.githubusercontent.com/48876996/60768902-794e4c80-a0da-11e9-9d9a-9a8b22e6aff9.png)
